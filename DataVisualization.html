@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Data Visualization</title>
+    <link rel="stylesheet" href="DataVisualization.css">
+</head>
+<body>
+    <div id="controls">
+        <label for="year-filter">Select Release Year:</label>
+        <select id="year-filter">
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+        </select>
+        <button id="zoom-in">Zoom In</button>
+        <button id="zoom-out">Zoom Out</button>
+    </div>
+    <div id="bar-chart-container"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="DataVisualization.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#chart-container {
+  margin: 20px;
+}
+  
+#controls {
+  margin: 20px;
+}
+  
+#controls select {
+  font-size: 16px;
+  padding: 5px;
+}
+  
